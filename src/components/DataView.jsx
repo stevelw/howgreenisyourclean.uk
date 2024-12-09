@@ -16,11 +16,13 @@ function DataView() {
             setPostcodeArea={setPostcodeArea}
           />
         </div>
-        <div style={{ flex: "auto" }}>
-          <DayView postcodeArea={postcodeArea} />
-        </div>
+        {postcodeArea && (
+          <div style={{ flex: "auto" }}>
+            <DayView postcodeArea={postcodeArea} />
+          </div>
+        )}
       </div>
-      <GraphView postcodeArea={postcodeArea} />
+      {postcodeArea && <GraphView postcodeArea={postcodeArea} />}
     </>
     )
 }
