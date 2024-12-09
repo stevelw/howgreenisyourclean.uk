@@ -1,1 +1,104 @@
-{"_type":"export","__export_format":4,"__export_date":"2024-10-29T11:05:44.854Z","__export_source":"insomnia.desktop.app:v10.1.1","resources":[{"_id":"req_10621efc99cf4e6b98777dcecd181323","parentId":"wrk_043424a1691f4e11b2bf67db97d203e2","modified":1730198547975,"created":1730197657245,"url":"{{ _.baseURL }}/regional/intensity/2024-10-25T12:35Z/fw24h/postcode/:postcode","name":"Get data for next 24h for postcode","description":"Get Carbon Intensity data for next 24h for specified postcode\n\nGet Regional Carbon Intensity data for next 24h for specified postcode. All times provided in UTC (+00:00).\n\nDate-time should be query parameter, but Insomnia will try and URL-encode special characters in params.","method":"GET","body":{},"parameters":[{"id":"pair_cc541c70053041f6a55ea51ae7e1fcbd","name":"","value":"","description":"","disabled":true}],"headers":[{"name":"User-Agent","value":"insomnia/10.1.1"}],"authentication":{},"metaSortKey":-1730197657245,"isPrivate":false,"pathParameters":[{"name":"postcode","value":"RG41"}],"settingStoreCookies":true,"settingSendCookies":true,"settingDisableRenderRequestBody":false,"settingEncodeUrl":true,"settingRebuildPath":true,"settingFollowRedirects":"global","_type":"request"},{"_id":"wrk_043424a1691f4e11b2bf67db97d203e2","parentId":null,"modified":1730197651257,"created":1730197651257,"name":"How Clean Is My Wash","description":"","scope":"collection","_type":"workspace"},{"_id":"req_e71d431d693d4ba2829b45b115fddefd","parentId":"wrk_043424a1691f4e11b2bf67db97d203e2","modified":1730199491204,"created":1730199447094,"url":"{{ _.baseURL }}/regional/intensity/2024-10-25T12:35Z/fw48h/postcode/:postcode","name":"Get data for next 48h for postcode","description":"Get Carbon Intensity data for next 48h for specified postcode\n\nGet Regional Carbon Intensity data for next 48h for specified postcode. All times provided in UTC (+00:00).\n\nDate-time should be query parameter, but Insomnia will try and URL-encode special characters in params.","method":"GET","body":{},"parameters":[{"id":"pair_cc541c70053041f6a55ea51ae7e1fcbd","name":"","value":"","description":"","disabled":true}],"headers":[{"name":"User-Agent","value":"insomnia/10.1.1"}],"authentication":{},"metaSortKey":-1729680898730.5,"isPrivate":false,"pathParameters":[{"name":"postcode","value":"RG41"}],"settingStoreCookies":true,"settingSendCookies":true,"settingDisableRenderRequestBody":false,"settingEncodeUrl":true,"settingRebuildPath":true,"settingFollowRedirects":"global","_type":"request"},{"_id":"env_de0357a8f00b7a6d15223f270bb9fb3b45306dc1","parentId":"wrk_043424a1691f4e11b2bf67db97d203e2","modified":1730197834782,"created":1730197651260,"name":"Base Environment","data":{"baseURL":"https://api.carbonintensity.org.uk"},"dataPropertyOrder":{"&":["baseURL"]},"color":null,"isPrivate":false,"metaSortKey":1730197651260,"_type":"environment"},{"_id":"jar_de0357a8f00b7a6d15223f270bb9fb3b45306dc1","parentId":"wrk_043424a1691f4e11b2bf67db97d203e2","modified":1730197651260,"created":1730197651260,"name":"Default Jar","cookies":[],"_type":"cookie_jar"}]}
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2024-10-29T11:05:44.854Z",
+  "__export_source": "insomnia.desktop.app:v10.1.1",
+  "resources": [
+    {
+      "_id": "req_10621efc99cf4e6b98777dcecd181323",
+      "parentId": "wrk_043424a1691f4e11b2bf67db97d203e2",
+      "modified": 1730198547975,
+      "created": 1730197657245,
+      "url": "{{ _.baseURL }}/regional/intensity/2024-10-25T12:35Z/fw24h/postcode/:postcode",
+      "name": "Get data for next 24h for postcode",
+      "description": "Get Carbon Intensity data for next 24h for specified postcode\n\nGet Regional Carbon Intensity data for next 24h for specified postcode. All times provided in UTC (+00:00).\n\nDate-time should be query parameter, but Insomnia will try and URL-encode special characters in params.",
+      "method": "GET",
+      "body": {},
+      "parameters": [
+        {
+          "id": "pair_cc541c70053041f6a55ea51ae7e1fcbd",
+          "name": "",
+          "value": "",
+          "description": "",
+          "disabled": true
+        }
+      ],
+      "headers": [{ "name": "User-Agent", "value": "insomnia/10.1.1" }],
+      "authentication": {},
+      "metaSortKey": -1730197657245,
+      "isPrivate": false,
+      "pathParameters": [{ "name": "postcode", "value": "RG41" }],
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "wrk_043424a1691f4e11b2bf67db97d203e2",
+      "parentId": null,
+      "modified": 1730197651257,
+      "created": 1730197651257,
+      "name": "How Clean Is My Wash",
+      "description": "",
+      "scope": "collection",
+      "_type": "workspace"
+    },
+    {
+      "_id": "req_e71d431d693d4ba2829b45b115fddefd",
+      "parentId": "wrk_043424a1691f4e11b2bf67db97d203e2",
+      "modified": 1730199491204,
+      "created": 1730199447094,
+      "url": "{{ _.baseURL }}/regional/intensity/2024-10-25T12:35Z/fw48h/postcode/:postcode",
+      "name": "Get data for next 48h for postcode",
+      "description": "Get Carbon Intensity data for next 48h for specified postcode\n\nGet Regional Carbon Intensity data for next 48h for specified postcode. All times provided in UTC (+00:00).\n\nDate-time should be query parameter, but Insomnia will try and URL-encode special characters in params.",
+      "method": "GET",
+      "body": {},
+      "parameters": [
+        {
+          "id": "pair_cc541c70053041f6a55ea51ae7e1fcbd",
+          "name": "",
+          "value": "",
+          "description": "",
+          "disabled": true
+        }
+      ],
+      "headers": [{ "name": "User-Agent", "value": "insomnia/10.1.1" }],
+      "authentication": {},
+      "metaSortKey": -1729680898730.5,
+      "isPrivate": false,
+      "pathParameters": [{ "name": "postcode", "value": "RG41" }],
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "env_de0357a8f00b7a6d15223f270bb9fb3b45306dc1",
+      "parentId": "wrk_043424a1691f4e11b2bf67db97d203e2",
+      "modified": 1730197834782,
+      "created": 1730197651260,
+      "name": "Base Environment",
+      "data": { "baseURL": "https://api.carbonintensity.org.uk" },
+      "dataPropertyOrder": { "&": ["baseURL"] },
+      "color": null,
+      "isPrivate": false,
+      "metaSortKey": 1730197651260,
+      "_type": "environment"
+    },
+    {
+      "_id": "jar_de0357a8f00b7a6d15223f270bb9fb3b45306dc1",
+      "parentId": "wrk_043424a1691f4e11b2bf67db97d203e2",
+      "modified": 1730197651260,
+      "created": 1730197651260,
+      "name": "Default Jar",
+      "cookies": [],
+      "_type": "cookie_jar"
+    }
+  ]
+}

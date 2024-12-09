@@ -15,15 +15,14 @@ A built version is available at [howgreenisyourclean.uk](https://howgreenisyourc
 
 1. Clone the repo from [github.com/stevelw/howgreenisyourclean.uk](https://github.com/stevelw/howgreenisyourclean.uk]
 
-    `git clone https://github.com/stevelw/howgreenisyourclean.uk`
+   `git clone https://github.com/stevelw/howgreenisyourclean.uk`
 
 2. Install the development dependencies
 
-    `npm install -d`
+   `npm install -d`
 
 3. Build using Vite
 
-    `npm run build`
+   `npm run build`
 
-    Alternatively, a [CodeKit](https://codekitapp.com) build configuration is included.
-    
+   Alternatively, a [CodeKit](https://codekitapp.com) build configuration is included.

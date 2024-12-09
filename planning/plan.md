@@ -13,12 +13,12 @@ Using the [Carbon Intensity API](https://api.carbonintensity.org.uk) to help con
 ### Structure
 
 - Root
-    - Heading
-    - DataView
-        - PostcodeSearch
-        - DayView
-        - GraphView
-    - Explanation
+  - Heading
+  - DataView
+    - PostcodeSearch
+    - DayView
+    - GraphView
+  - Explanation
 
 ## States
 
@@ -29,22 +29,22 @@ Using the [Carbon Intensity API](https://api.carbonintensity.org.uk) to help con
 ### State users
 
 - Root
-    - Heading
-    - DataView (postcode, setDayData, setGraphData)
-        - PostcodeSearch (postcode, setPostcode)
-        - DayView (dayData)
-        - GraphView (graphData)
-    - Explanation
+  - Heading
+  - DataView (postcode, setDayData, setGraphData)
+    - PostcodeSearch (postcode, setPostcode)
+    - DayView (dayData)
+    - GraphView (graphData)
+  - Explanation
 
 ### State owners
 
 - Root
-    - Heading
-    - DataView (postcode, dayData, graphData)
-        - PostcodeSearch
-        - DayView
-        - GraphView
-    - Explanation
+  - Heading
+  - DataView (postcode, dayData, graphData)
+    - PostcodeSearch
+    - DayView
+    - GraphView
+  - Explanation
 
 ## Visualisation
 
